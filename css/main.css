@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #ffe500;
 }
 
 *, *::before, *::after {
@@ -8,10 +7,23 @@ html {
 }
 
 h1 {
-font-family: 'Sigmar One', cursive;
-color: #cc1465;
+  font-family: 'Sigmar One', cursive;
+  color: #b2a212;
+  text-align: center;
+  font-size: .2em;
 }
 
 nav ul {
   font-family: Georgia;
+  text-align: center;
+}
+
+a {
+  color: #ffe500;
+  padding: .2em .5em .3em;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #cc1465;
 }
