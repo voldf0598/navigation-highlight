@@ -1,6 +1,17 @@
 html {
-  background-color: #i
- font-family
+  box-sizing: border-box;
+  background-color: #ffe500;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
+h1 {
+font-family: 'Sigmar One', cursive;
+color: #cc1465;
+}
+
+nav ul {
+  font-family: Georgia;
 }
