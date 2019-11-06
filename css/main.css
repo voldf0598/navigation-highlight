@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5em;
 }
 
 *, *::before, *::after {
@@ -54,7 +53,7 @@ p {
   color: #2f2d13;
 }
 
-small {
+footer {
   background-color: #ffe500;
-  text-align:
+  text-align: center;
 }
