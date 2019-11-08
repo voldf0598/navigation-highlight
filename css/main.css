@@ -5,12 +5,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
 
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   text-align: center;
   font-size: 3em;
@@ -18,13 +19,21 @@ h1 {
   padding: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 nav {
   text-align: center;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 nav ol {
   text-decoration: none;
   list-style-type: none;
+  text-align: center;
 }
 
 a:hover {
@@ -34,17 +43,16 @@ a:hover {
 header {
   background-color: #ffe500;
   display: block;
-  margin-bottom: 0 .75em;
+  margin-bottom: .75em;
 }
 
 ul li {
-  text-decoration: none;
-  list-style-type: none;
   display: inline-block;
 }
 
 .current {
-background-color: #b20953;
+  background-color: #b20953;
+  color: #fff;
 }
 
 a {
@@ -57,13 +65,15 @@ a {
   line-height: 1.5;
   padding: .5em .75em;
   list-style-type: none;
+  text-decoration: none;
+  margin: .3em;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   text-align: center;
-  font-size: 1.875rem
+  font-size: 1.875rem;
 }
 
 p {
@@ -73,5 +83,5 @@ p {
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: .75;
+  padding: 1em;
 }
