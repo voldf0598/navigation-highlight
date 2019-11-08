@@ -5,29 +5,46 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+}
 
 h1 {
   font-family: 'Sigmar One', cursive;
   color: #b20953;
   text-align: center;
   font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ol {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 a:hover {
   color: #cc1465;
-  text-decoration: none;
-  list-style-type: none;
-
 }
 
 header {
   background-color: #ffe500;
+  display: block;
+  margin-bottom: 0 .75em;
 }
 
 ul li {
   text-decoration: none;
   list-style-type: none;
   display: inline-block;
+}
+
+.current {
+background-color: #b20953;
 }
 
 a {
