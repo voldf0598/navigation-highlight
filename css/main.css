@@ -73,10 +73,11 @@ h2 {
   font-size: 1.875rem;
   line-height: 1.5;
   margin-left: .3em;
+  margin-right: .3em;
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -86,8 +87,9 @@ main {
 
 p {
   color: #2f2d13;
-  font-size: 1.151rem;
+  font-size: 1.125rem;
   margin-left: .3em;
+  margin-right: .3em;
 }
 
 footer {
