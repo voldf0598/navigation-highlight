@@ -9,7 +9,7 @@ html {
 header {
   background-color: #ffe500;
   margin: 0;
-  padding-bottom: .1em;
+  padding-bottom: .5em;
   line-height: 1.5;
 }
 
@@ -23,6 +23,7 @@ h1 {
   text-align: center;
   font-size: 3em;
   margin: 0;
+  margin-bottom: .1em;
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 }
 
 nav ol {
-  text-align: center;
+  text-align: left;
 }
 
 a:hover {
@@ -41,14 +42,14 @@ a:hover {
 
 ul {
   padding-left: 0;
-  margin: .5em;
+  margin: .1em;
 }
 
 ul li {
-  text-align: center;
   list-style-type: none;
   text-decoration: none;
   display: inline;
+  text-align: left;
 }
 
 .current {
@@ -61,9 +62,10 @@ a {
   color: #fff;
   background-color: #b2a212;
   font-family: Georgia, sans-serif;
-  font-size: 1rem;
-  padding: .6em;
+  padding: .5em;
   text-decoration: none;
+  font-size: 1.125rem;
+  text-align: left;
 }
 
 h2 {
@@ -72,13 +74,15 @@ h2 {
   text-align: left;
   font-size: 1.875rem;
   line-height: 1.5;
-  margin-left: .3em;
+  margin-left: .4em;
   margin-right: .3em;
+  background-color: #fff;
 }
 
 img {
   display: block;
   width: 100%;
+  padding: 0 .6em .4em;
 }
 
 main {
@@ -87,9 +91,11 @@ main {
 
 p {
   color: #2f2d13;
-  font-size: 1.125rem;
-  margin-left: .3em;
+  font-size: 1.126rem;
+  margin-left: .4em;
   margin-right: .3em;
+  line-height: 1.5;
+  margin-bottom: 0;
 }
 
 footer {
